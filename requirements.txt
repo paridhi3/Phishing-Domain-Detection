@@ -12,4 +12,8 @@ pickle
 Flask
 dill
 os
+requests
+dnspython
+whois
+
 -e .

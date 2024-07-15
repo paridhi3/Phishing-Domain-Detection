@@ -20,5 +20,5 @@ logging.basicConfig(
     level = logging.INFO,  # The logging level; INFO level will capture all info, warning, error, and critical messages
 )
 
-if __name__=="__main__":
-    logging.info("Logging has started")
+# if __name__=="__main__":
+#     logging.info("Logging has started")
