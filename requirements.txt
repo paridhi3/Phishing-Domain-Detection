@@ -9,4 +9,7 @@ xgboost
 tensorflow
 keras
 pickle
+Flask
+dill
 os
+-e .
