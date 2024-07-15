@@ -15,5 +15,6 @@ os
 requests
 dnspython
 whois
+ipwhois
 
 -e .
