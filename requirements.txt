@@ -8,13 +8,10 @@ catboost
 xgboost
 tensorflow
 keras
-pickle
 Flask
 dill
-os
 requests
 dnspython
 whois
 ipwhois
-
 -e .
