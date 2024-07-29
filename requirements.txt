@@ -18,4 +18,5 @@ whois
 ipwhois
 mlflow
 dagshub
+dvc
 -e .
