@@ -7,10 +7,15 @@ catboost
 xgboost
 tensorflow
 keras
+python-dotenv
+mysql-connector-python
+pymysql
 Flask
 dill
 requests
 dnspython
 whois
 ipwhois
+mlflow
+dagshub
 -e .

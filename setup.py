@@ -23,8 +23,6 @@ setup(
     install_requires=get_requirements('requirements.txt'),
     author='Paridhi',
     description='Detects phishing url using machine learning models',
-    long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',
     license='MIT',
     keywords='phishing domain detection machine learning classification cybersecurity random forest',
 )
