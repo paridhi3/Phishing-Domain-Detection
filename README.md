@@ -49,13 +49,13 @@ The main goal is to predict whether the domains are real or malicious.
 </div>
 
 
-
-## Project Workflow
-We'll go through different stages of data collection,feature extraction,training and finally deployment of trained model.
+## 🔄 Project Workflow
 
 <div align="center">
 <img src="Images/phish.drawio.svg" width="90%" style="border-radius: 16px;"/>
 </div>
+
+We'll go through different stages of data collection,feature extraction,training and finally deployment of trained model.
 
 1. Data Collection
 2. Feature Extraction
@@ -63,7 +63,7 @@ We'll go through different stages of data collection,feature extraction,training
 4. Deployment
 
 
-## Data Collection
+### 1. Data Collection
 
 The dataset can be found [here](https://data.mendeley.com/datasets/72ptz43s9v/1). Complete data description can be found [here](https://www.sciencedirect.com/science/article/pii/S2352340920313202#section-cited-by).
 
@@ -76,7 +76,7 @@ not cause a severe imbalance problem.
 
 The data consists of 111 independent features and 1 target feature.
 
-## 2. Feature Selection
+### 2. Feature Selection
 
 The dataset initially contained a large feature space of 111 features, making it computationally expensive to process all features. Many of these features might not contribute to the model's performance and could even hinder it.
 
@@ -85,7 +85,7 @@ To address this, invalid and redundant features were removed, reducing the datas
 Next, we utilized the `feature_importances_` attribute from the Random Forest Classifier to identify the most important features. This selection process resulted in a final dataset of 53 features, which will be used for further analysis. Further information on this step is available [here](Research/02_feature_selection.ipynb).
 
 
-## 3. Model Training
+### 3. Model Training
 
 The machine learning models considered to train the dataset in this project are :
 - Decision Tree Classifier
@@ -97,6 +97,7 @@ The machine learning models considered to train the dataset in this project are 
 
 For this dataset Random Forest Classifier gave the highest accuracy (97%) with suitably balanced precision and recall. This can be seen [here](Research/05_test-all-models.ipynb)
 
+## 💻 Tech Stack used
 
 ## 👨‍💻 To run (locally)
 1. Import this repository using git command
@@ -141,7 +142,7 @@ This project was done just for the sake of learning end-to-end ML deployment,so 
 - Optimising the model for precion rather than recall.
 
 -->
-### References
+## 📚 References
 - https://www.sciencedirect.com/science/article/abs/pii/S1389128622004418?via%3Dihub
 - https://github.com/deepeshdm/Phishing-Attack-Domain-Detection
 - https://github.com/ANG13T/url_genie
