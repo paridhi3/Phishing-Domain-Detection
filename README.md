@@ -43,11 +43,11 @@ Phishing is a type of fraud in which an attacker impersonates a reputable compan
 
 The mail goal is to predict whether the domains are real or malicious.
 
-<!--
+
 <div align="center">
-<img src="/Imgs/phising_architecture.jpg" width="75%"/>
+<img src="static/images/phising-ss.png" width="75%"/>
 </div>
--->
+
 
 ## Project Workflow
 We'll go through different stages of data collection,feature extraction,training and finally deployment of trained model.
