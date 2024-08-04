@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing URL Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    
+    <h1>Phishing URL Prediction</h1>
+
+    <div class="container">
+
+        <img src="{{ url_for('static', filename='images/phishing-img.svg') }}" alt="Phishing Illustration" class="header-image">
+        
+        <form action="{{ url_for('predict_datapoint') }}" method="POST">
+            <label for="url">Enter URL:</label>
+            <input type="text" id="url" name="url" required>
+            <button type="submit">Check URL</button>
+        </form>
+
+    </div>
+
+    {% if results is not none %}
+            {% if results == 0 %}
+                <div class="results benign">
+                    Prediction Result: The given URL is <span>BENIGN</span>.
+                </div>
+            {% elif results == 1 %}
+                <div class="results malicious">
+                    The given URL is <span>MALICIOUS</span>.
+                </div>
+            {% endif %}
+    {% endif %}
+
+    <footer>
+        <p>
+            View on <a href="https://github.com/paridhi3/Phishing-Domain-Detection">GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>

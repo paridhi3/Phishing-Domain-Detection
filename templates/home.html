@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Prediction Form</h1>
+    <form action="{{ url_for('predict_datapoint') }}" method="POST">
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender"><br>
+
+        <label for="ethnicity">Race/Ethnicity:</label>
+        <input type="text" id="ethnicity" name="ethnicity"><br>
+
+        <label for="parental_level_of_education">Parental Level of Education:</label>
+        <input type="text" id="parental_level_of_education" name="parental_level_of_education"><br>
+
+        <label for="lunch">Lunch:</label>
+        <input type="text" id="lunch" name="lunch"><br>
+
+        <label for="test_preparation_course">Test Preparation Course:</label>
+        <input type="text" id="test_preparation_course" name="test_preparation_course"><br>
+
+        <label for="reading_score">Reading Score:</label>
+        <input type="number" id="reading_score" name="reading_score"><br>
+
+        <label for="writing_score">Writing Score:</label>
+        <input type="number" id="writing_score" name="writing_score"><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if results %}
+    <h2>Prediction Results: {{ results }}</h2>
+    {% endif %}
+</body>
+</html>
