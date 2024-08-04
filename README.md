@@ -45,13 +45,17 @@ The mail goal is to predict whether the domains are real or malicious.
 
 
 <div align="center">
-<img src="static/images/phishing-ss.png" width="75%"/>
+<img src="Images/phishing-ss.png" width="100%"/>
 </div>
 
 
 
 ## Project Workflow
 We'll go through different stages of data collection,feature extraction,training and finally deployment of trained model.
+
+<div align="center">
+<img src="Images/phish-overview.drawio.svg" width="100%"/>
+</div>
 
 1. Data Collection
 2. Feature Extraction
