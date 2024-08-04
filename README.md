@@ -51,10 +51,6 @@ The main goal is to predict whether the domains are real or malicious.
 
 ## 🔄 Project Workflow
 
-<div align="center">
-<img src="Images/phish.drawio.svg" width="90%" style="border-radius: 16px;"/>
-</div>
-
 We'll go through different stages of data collection,feature extraction,training and finally deployment of trained model.
 
 1. Data Collection
@@ -62,6 +58,9 @@ We'll go through different stages of data collection,feature extraction,training
 3. Model training & evaluation
 4. Deployment
 
+<div align="center">
+<img src="Images/phish.drawio.svg" width="90%" style="border-radius: 16px;"/>
+</div>
 
 ### 1. Data Collection
 
