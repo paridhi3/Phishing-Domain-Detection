@@ -45,8 +45,9 @@ The mail goal is to predict whether the domains are real or malicious.
 
 
 <div align="center">
-<img src="static/images/phising-ss.png" width="75%"/>
+<img src="static/images/phishing-ss.png" width="75%"/>
 </div>
+
 
 
 ## Project Workflow
