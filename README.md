@@ -41,11 +41,11 @@ Enter any URL to know if it's malicious or not.
 ## 🎯 Objective
 Phishing is a type of fraud in which an attacker impersonates a reputable company or person in order to get sensitive information such as login credentials or account information via email or other communication channels. Phishing is popular amongattackers because it is easier to persuade someone to click a malicious link that appears to be authentic than it is to break through a computer's protection measures.
 
-The mail goal is to predict whether the domains are real or malicious.
+The main goal is to predict whether the domains are real or malicious.
 
 
 <div align="center">
-<img src="Images/phishing-ss.png" width="100%"/>
+<img src="Images/phishing-ss.png" width="90%" style="border-radius: 16px;"/>
 </div>
 
 
@@ -54,7 +54,7 @@ The mail goal is to predict whether the domains are real or malicious.
 We'll go through different stages of data collection,feature extraction,training and finally deployment of trained model.
 
 <div align="center">
-<img src="Images/phish-overview.drawio.svg" width="100%"/>
+<img src="Images/phish.drawio.svg" width="90%" style="border-radius: 16px;"/>
 </div>
 
 1. Data Collection
