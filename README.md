@@ -62,7 +62,8 @@ We'll go through different stages of data collection,feature extraction,training
 
 ### 1. Data Collection
 
-The dataset can be found [here](https://data.mendeley.com/datasets/72ptz43s9v/1). Complete data description can be found [here](https://www.sciencedirect.com/science/article/pii/S2352340920313202#section-cited-by).
+The dataset can be found [here](https://data.mendeley.com/datasets/72ptz43s9v/1).<br> 
+Complete data description can be found [here](https://www.sciencedirect.com/science/article/pii/S2352340920313202#section-cited-by).
 
 These data consist of a collection of legitimate as well as phishing website instances. Each website is represented by the set of features which denote, whether website is legitimate or not. Data serves as an input for machine learning process.
 
@@ -92,7 +93,7 @@ The machine learning models considered to train the dataset in this project are 
 - Gradient Boosting Classifier
 - Multilayer Perceptron
 
-For this dataset Random Forest Classifier gave the highest accuracy (97%) with suitably balanced precision and recall. This can be seen [here](Research/05_test-all-models.ipynb)
+For this dataset Random Forest Classifier gave the highest accuracy (97%) with suitably balanced precision and recall. This can be seen [here](Research/05_test-all-models.ipynb).
 
 ## 💻 Tech Stack used
 
@@ -130,38 +131,10 @@ For this dataset Random Forest Classifier gave the highest accuracy (97%) with s
 
 7. Open your web browser and go to `http://127.0.0.1:5000/` to access the application.
 
-<!--
-3. After this just import the get_prediction() from API.py and pass the required arguments to make the prediction.Below is an example,copy the below code snippet and pass the required variable values
-```python
-from API import get_prediction
-
-# path to trained model
-model_path = r"/models/Malicious_URL_Prediction.h5"
-
-# input url
-url = "www.tesla.com/"
-
-# returns probability of url being malicious
-prediction = get_prediction(url,model_path)
-print(prediction)
-```
-
-## 🔥 Web Interface & API Documentation
-
-In order to make it easy for anyone to interact with the model,we created a clean web interface using ReactJS and deployed it on Heroku cloud space. We also created a microservice Rest API, so that developers can use this model in their applications.
-
-- Checkout Official Website : [phishr.vercel.com](https://phishr.vercel.app/)
-- Frontend Repository : [here](https://github.com/deepeshdm/phishr) (Newly Updated 2023)
-- Backend API repository : [here](https://github.com/deepeshdm/Phishr-API) (Newly Updated 2023)
-
-<div align="center">
-<img src="/Imgs/phishr-demo3.gif" width="90%"/>
-</div>
-
-## Improvements to make
-This project was done just for the sake of learning end-to-end ML deployment,so far less focus was given on optimizing model performances.Further things which can be done for Improving this model :
-- Collecting more data which has less "sparse" features.
-- Optimising the model for precion rather than recall.
+## Areas for Improvement
+This project was undertaken primarily for learning the process of end-to-end ML deployment, so optimizing model performance was not the main focus. To enhance the model further, consider the following steps:
+- Improved feature selection techniques.
+- Use Recursive Feature Elimination
 
 -->
 ## 📚 References
