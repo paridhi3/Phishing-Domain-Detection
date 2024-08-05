@@ -136,7 +136,6 @@ This project was undertaken primarily for learning the process of end-to-end ML 
 - Improved feature selection techniques.
 - Use Recursive Feature Elimination
 
--->
 ## 📚 References
 - https://www.sciencedirect.com/science/article/abs/pii/S1389128622004418?via%3Dihub
 - https://github.com/deepeshdm/Phishing-Attack-Domain-Detection
