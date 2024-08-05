@@ -24,8 +24,6 @@
 - Update the main.py
 - Update the dvc.yaml
 - app.py
-
-## Tools used
 -->
 
 #### 🔥 Official Website 👉 [Yet To Be Done](#)
@@ -99,14 +97,39 @@ For this dataset Random Forest Classifier gave the highest accuracy (97%) with s
 ## 💻 Tech Stack used
 
 ## 👨‍💻 To run (locally)
-1. Import this repository using git command
-```
-git clone https://github.com/paridhi3/Phishing-Domain-Detection.git
-```
-2. Install all the required dependencies inside a virtual environment
-```
-pip install -r requirements.txt
-```
+
+1. Import this repository using git command:
+    ```sh
+    git clone https://github.com/paridhi3/Phishing-Domain-Detection.git
+    ```
+
+2. Navigate to the project directory:
+    ```sh
+    cd Phishing-Domain-Detection
+    ```
+
+3. Create a conda environment:
+    ```sh
+    conda create --name phishing-env python=3.11
+    ```
+
+4. Activate the conda environment:
+    ```sh
+    conda activate phishing-env
+    ```
+
+5. Install all the required dependencies inside the conda environment:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+6. Run the Flask app:
+    ```sh
+    python app.py
+    ```
+
+7. Open your web browser and go to `http://127.0.0.1:5000/` to access the application.
+
 <!--
 3. After this just import the get_prediction() from API.py and pass the required arguments to make the prediction.Below is an example,copy the below code snippet and pass the required variable values
 ```python
