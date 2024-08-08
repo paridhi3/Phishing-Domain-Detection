@@ -1,0 +1,28 @@
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+
+# Ignore build output directories
+build/
+dist/
+
+# Ignore git-related files
+.git/
+.gitignore
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore IDE and editor config files
+.vscode/
+.idea/
+
+# Ignore sensitive files
+.env

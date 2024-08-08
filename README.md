@@ -30,11 +30,6 @@
 Enter any URL to know if it's malicious or not.
 <br/>
 
-<!--
-<div align="center">
-<img src="/Imgs/phishr-demo3.gif" width="90%"/>
-</div>
--->
 
 ## 🎯 Objective
 Phishing is a type of fraud in which an attacker impersonates a reputable company or person in order to get sensitive information such as login credentials or account information via email or other communication channels. Phishing is popular amongattackers because it is easier to persuade someone to click a malicious link that appears to be authentic than it is to break through a computer's protection measures.
@@ -57,7 +52,7 @@ We'll go through different stages of data collection,feature extraction,training
 4. Deployment
 
 <div align="center">
-<img src="Images/phish.drawio.svg" width="90%" style="border-radius: 16px;"/>
+<img src="Images/phish-overview.drawio.svg" width="90%" style="border-radius: 16px;"/>
 </div>
 
 ### 1. Data Collection
@@ -111,7 +106,7 @@ For this dataset Random Forest Classifier gave the highest accuracy (97%) with s
 
 3. Create a conda environment:
     ```sh
-    conda create --name phishing-env python=3.11
+    conda create --name phishing-env python=3.11.7
     ```
 
 4. Activate the conda environment:
